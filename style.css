@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font:
+        12px/20px 'Helvetica Neue',
+        Arial,
+        Helvetica,
+        sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.popup-stop{
+    padding: 0 2px;
+    color: white;
+    border-radius: 2px;
+    font-weight: 600;
+    height: 16px;
+}
+.popup-route{
+    padding: 0 2px;
+    color: white;
+    border-radius: 2px;
+    font-weight: 600;
+    height: 16px;
+}
+.popup-route span{
+    position: relative;
+    top: -1px;
+}
+.popup-icon{
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+.popup-row{
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+a {
+text-decoration: none;
+}
+.bus{
+    background-color: #007ac9;
+}
+.trunk_bus, .subway{
+    background-color: #ff6319;
+}
+.l_rail{
+    background-color: #007e79;
+}
+.rail{
+    background-color: #8c4799;
+}
+.ferry{
+    background-color: #00b9e4;
+}
+.tram{
+    background-color: #00985f;
+}
+
+.bus-text{
+color: #007ac9;
+}
+.trunk_bus-text, .subway-text{
+color: #ff6319;
+}
+.l_rail-text{
+color: #007e79;
+}
+.rail-text{
+color: #8c4799;
+}
+.ferry-text{
+color: #00b9e4;
+}
+.tram-text{
+color: #00985f;
+}
