@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     center: [24.9375, 60.170833],
     zoom: 9,
-    style: "./hsl-map-style/custom_style.json"
+    style: "./custom_style.json"
 })
 map.on("load", () => {
     map.on("click", (e) => {
